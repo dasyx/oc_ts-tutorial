@@ -5,6 +5,14 @@ var manager1 = {
     salary: 100000,
     department: "Sales",
     numberOfEmployees: 5,
+    email: {
+        address: "john.doe@example.com",
+        password: "password123",
+        verified: true,
+    },
+    getSalary: function () {
+        return this.salary;
+    },
 };
 // Création d'un objet manager2 de type Manager avec toutes les propriétés requises.
 var manager2 = {
@@ -13,6 +21,14 @@ var manager2 = {
     salary: 120000,
     department: "Marketing",
     numberOfEmployees: 10,
+    email: {
+        address: "jane.doe@example.com",
+        password: "password456",
+        verified: true,
+    },
+    getSalary: function () {
+        return this.salary;
+    },
 };
 // Initialisation d'un tableau employees qui peut contenir des objets de type Employee.
 var employees = [];
