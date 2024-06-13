@@ -18,3 +18,4 @@ function addUser(newUser) {
     }
     console.log(newUser);
 }
+console.log(addUser(user));

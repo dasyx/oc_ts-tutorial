@@ -1,1 +1,2 @@
-cont age = 10;
+const age = 10;
+console.log(age);
