@@ -7,9 +7,10 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Lancer le programme",
+      "name": "Déboguer le fichier actuel",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}\\script.ts",
+      "program": "${file}", // Utilise le fichier actuellement ouvert
+      "console": "integratedTerminal",
       "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
