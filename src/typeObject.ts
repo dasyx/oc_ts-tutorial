@@ -1,7 +1,7 @@
 type User = {
   name: string;
   age: number;
-  password: string | number;
+  password: string | number; // Union type
   address?: {
     street: string;
     city: string;
